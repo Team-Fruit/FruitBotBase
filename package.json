@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "FruitBotBase",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Team-Fruit/FruitBotBase.git"
@@ -14,5 +13,11 @@
   "bugs": {
     "url": "https://github.com/Team-Fruit/FruitBotBase/issues"
   },
-  "homepage": "https://github.com/Team-Fruit/FruitBotBase#readme"
+  "homepage": "https://github.com/Team-Fruit/FruitBotBase#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
 }
