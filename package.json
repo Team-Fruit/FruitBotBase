@@ -4,7 +4,8 @@
   "description": "FruitBotBase",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "lint": "tslint --format stylish --fix 'src/**/*.ts{,x}'",
+    "build": "npm run lint && tsc"
   },
   "repository": {
     "type": "git",
