@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "tslint --format stylish --fix 'src/**/*.ts{,x}'",
-    "build": "npm run lint && tsc"
+    "build": "npm run lint && tsc",
+    "start": "env-cmd env.json node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/Team-Fruit/FruitBotBase#readme",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "discord.js": "^11.3.2",
+    "env-cmd": "^8.0.2"
   },
   "devDependencies": {
     "@types/node": "^10.3.4",
